@@ -1,0 +1,69 @@
+/*ESTILO GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: #000;
+    height: 100vh; /*toma todo espaço da tela*/
+}
+
+/*
+classe criada para o conteúdo não ficar colado na lateral do site
+vai limitar até onde vai ficar os limites do site
+*/
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/*ESTILO GERAL*/
+
+/*ESTILO DO CABEÇALHO*/
+header {
+    padding: 40px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #7D7D7D;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover {
+    color: #FFF;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 40px;
+}
+
+header .btn-contato button {
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px #00FF0868;
+}
+/*ESTILO DO CABEÇALHO*/
